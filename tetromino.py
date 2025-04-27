@@ -22,8 +22,6 @@ class Tetromino:
         # A helper method that rotates a matrix 90 degrees clockwise
         return np.rot90(mat, k=3)   # 3×90° = -90° → clockwise
 
-    # ──────────────────────────────────────────────────────────
-
     def __init__(self, shape: str):
         # The constructor initializes a new Tetromino with a specific shape
         self.type = shape.upper()
