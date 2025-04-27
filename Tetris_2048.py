@@ -120,6 +120,11 @@ def show_menu(grid_h, grid_w_total):
     stddraw.setFontFamily("Arial"); stddraw.setFontSize(32)
     stddraw.setPenColor(Color(255, 255, 255))
     stddraw.boldText(grid_w_total/2, grid_h - 3, "TETRIS 2048")
+    
+    stddraw.boldText(grid_w_total/2, grid_h - 15, "Made by:")
+    stddraw.boldText(grid_w_total/2, grid_h - 17, "Murat Kayra Pamukçu")
+    stddraw.boldText(grid_w_total/2, grid_h - 18, "Başar Metin")
+    stddraw.boldText(grid_w_total/2, grid_h - 19, "Necati Onur Yaman")
 
     btn_w, btn_h = 6, 1.4
     btn_y0 = grid_h/2 + 2
